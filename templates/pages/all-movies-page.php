@@ -65,7 +65,7 @@ try{
                     ?>
                 </select>
             </div>
-                <input type="submit" name="submitYears" value="Year" />
+                <input type="submit" name="submitYears" value="Year"/>
             <div class="form-group">
                 <label for="formGroupExampleInput2">Prodiuseris</label>
                 <input type="text" class="form-control" name="prod" placeholder="...">
