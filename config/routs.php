@@ -7,6 +7,8 @@ if (isset($_GET['page'])){
         case 'nauja-kategorija':
             include ('templates/pages/add-genres-page.php');
             break;
+        case 'valdymasf':
+            include ('templates/pages/add_movie.page.php');
         default:
     }
 }else{

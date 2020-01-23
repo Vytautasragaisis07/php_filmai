@@ -34,7 +34,7 @@
         <?php include"_partials/nav.view.php"?>
         <main class="container-fluid">
             <?php
-                require($_SERVER['DOCUMENT_ROOT'].'/Vytautas/php/Penkta/config/routs.php');
+                require($_SERVER['DOCUMENT_ROOT'].'/Vytautas/php_filmai/config/routs.php');
                 //echo($_SERVER['DOCUMENT_ROOT'].'/Vytautas/php/Penkta/config/routs.php');
                 ?>
         </main>

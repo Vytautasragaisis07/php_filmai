@@ -23,58 +23,10 @@ try{
         <td><?=$filmas['metai'];?></td>
         <td><?=$filmas['rezisierius'];?></td>
         <td><?=$filmas['imdb'];?></td>
-        <td><?=$filmas['genres_id'];?></td>
+        <td><?=$filmas['zanrai_id'];?></td>
         </tr>
     <?php endforeach; ?>
     </tr>
 </table>
-<h2>Pridėti filmą</h2>
-<table class="table table-bordered">
-    <?php
-    ?>
-    <tr>
-        <form method="POST">
-            <div class="form-group">
-                <label for="formGroupExampleInput2">Pavadinimas</label>
-                <input type="text" class="form-control" name="name" placeholder="...">
-            </div>
-            <div class="form-group">
-                <label for="formGroupExampleInput2">Kategorija</label>
-                    <select name="course" class="form-control">
-                        <option value="0">--Pasirinkite--</option>
-                        <option value="1" >Drama</option>
-                        <option value="2" >Trileris</option>
-                        <option value="3" >Kriminalinis</option>
-                    </select>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="formGroupExampleInput2">Aprašymas</label>
-                <input type="text" class="form-control" name="title" placeholder="...">
-            </div>
-            <div class="form-group">
-            </select>
-                <label for="formGroupExampleInput2">Metai</label>
-                <select name="year" class="form-control">
-                    <option value="" selected disabled>--Pasirinkite--</option>
-                    <?php
-                    for($i=1900; $i<=2020; $i++)
-                    {
-                        echo "<option value=".$i.">".$i."</option>";
-                    }
-                    ?>
-                </select>
-            </div>
-                <input type="submit" name="submitYears" value="Year"/>
-            <div class="form-group">
-                <label for="formGroupExampleInput2">Prodiuseris</label>
-                <input type="text" class="form-control" name="prod" placeholder="...">
-            </div>
-            <div class="form-group">
-                <label for="formGroupExampleInput2">IMDB</label>
-                <input type="number" class="form-control" name="kaina" placeholder="...">
-            </div><input type="submit" value="Submit" class="btn btn-primary mb-2" name="submit">
-        </form>
-    </tr>
-</table>
+
 
