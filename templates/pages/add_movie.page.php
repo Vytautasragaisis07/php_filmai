@@ -26,11 +26,11 @@ VALUES (:pavadinimas, :metai, :rezisierius, :imdb, :zanrai_id, :aprasymas)";
 <form method="post">
     <div class="form-group">
         <label for="Movie_name">Pavadinimas</label>
-        <input type="text" class="form-control" id="pavadinimas" placeholder="pavadinimas" name="movie_title">
+        <input type="text" class="form-control" id="pavadinimas" placeholder="Pavadinimas" name="movie_title">
     </div>
     <div class="form-group">
-        <label for="director">Director</label>
-        <input type="text" class="form-control" id="Director" placeholder="Director" name="director">
+        <label for="director">Režisierius</label>
+        <input type="text" class="form-control" id="Director" placeholder="Režisierius" name="director">
     </div>
     <div class="form-group">
         <label for="movie_rating">Metai</label>
@@ -75,7 +75,7 @@ VALUES (:pavadinimas, :metai, :rezisierius, :imdb, :zanrai_id, :aprasymas)";
         <label for="about">Filmo aprašymas</label>
         <input type="text" class="form-control" id="about" placeholder="Filmo aprašymas" name="about">
     </div>
-
+<br>
     <button type="submit" class="btn btn-primary mb-2" name="submit">Pridėti</button>
 </form>
 

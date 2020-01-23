@@ -4,7 +4,7 @@ if (isset($_GET['page'])){
         case 'visi':
             include ('templates/pages/all-movies-page.php');
             break;
-        case 'nauja-kategorija':
+        case 'valdymasz':
             include ('templates/pages/add-genres-page.php');
             break;
         case 'valdymasf':

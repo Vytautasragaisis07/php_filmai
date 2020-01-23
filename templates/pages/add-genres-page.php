@@ -1,7 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: moksleivis
- * Date: 2020-01-22
- * Time: 09:25
- */
+<?php foreach($genres as $genre):?>
+<li><a> <?= $genre="list-group-item"><a href="?page=zanrai%id=<?=genre['id'];?>";?><?=$genre['pavadinimas'];?></a></li>
+<? endforeach; ?>
