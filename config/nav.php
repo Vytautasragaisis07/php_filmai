@@ -12,7 +12,7 @@ $navigation = [
         'apie' => "Apie projekta",
         'Dropdown' => [
             'valdymasf' => "Filmu valdymas",
-            'valdymasz' => "Žanru valdymas",
+            'valdymask' => "Kategoriju valdymas",
         ]
     ]
 
