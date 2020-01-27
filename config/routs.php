@@ -13,13 +13,15 @@ if (isset($_GET['page'])){
         case 'atnaujinti':
             include ('templates/pages/update.page.php');
             break;
-        case 'salinimas':
+        case 'salinti':
             include ('templates/pages/delete_film.page.php');
             break;
         case 'paieska':
             include ('templates/pages/search.page.php');
             break;
-
+        case 'zanru-valdymas':
+            include ('templates/add-genre.page.php');
+            break;
 
         default:
     }
